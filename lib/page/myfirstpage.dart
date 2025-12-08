@@ -11,13 +11,21 @@ class MyFirstPage extends StatelessWidget {
         title: Text("My Profile"),
       backgroundColor:Color.fromARGB(255, 114, 198, 236)
       ),
-      body: Column(
+      body: Center(
+         child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,         
         children: [
+          CircleAvatar(
+           radius: 100,
+           backgroundImage:AssetImage("assets/images/me.jpg"),
+          ),
+          
           Text("Pipatpong",style: TextStyle(fontSize: 22,color: const Color.fromARGB(255, 240, 7, 7) ),),
           Text("thenkaew",style: TextStyle(fontSize: 22,color: const Color.fromARGB(255, 201, 5, 5) ),),
           Text("6820230005",style: TextStyle(fontSize: 22,color: const Color.fromARGB(255, 253, 7, 7) ),),
           Text("6820230005@tsu.ac.th",style: TextStyle(fontSize: 22,color: const Color.fromARGB(255, 250, 10, 10) ),),
         ],
+         ),
       ),
     ) ;
   }
