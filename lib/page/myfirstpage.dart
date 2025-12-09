@@ -72,7 +72,9 @@ class MyFirstPage extends StatelessWidget {
             ),
             Row(
               children: [
-                ElevatedButton(onPressed: ("ใจเกินร้อย"), child: Text("คติประจำใจ"))
+                ElevatedButton(onPressed: (){
+                  print("ไม่มีลิมิต");
+                }, child: Text("คติประจำใจ"))
               ],
             )
           ],
