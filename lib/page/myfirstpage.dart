@@ -37,11 +37,11 @@ class MyFirstPage extends StatelessWidget {
                     ),
                     Text(
                       "6820230005",
-                      style: TextStyle(fontSize: 20, color: Color.fromARGB(255, 244, 2, 187)),
+                      style: TextStyle(fontSize: 20, color: Color.fromARGB(255, 116, 248, 1)),
                     ),
                     Text(
                       "6820230005@tsu.ac.th",
-                      style: TextStyle(fontSize: 20, color: Color.fromARGB(255, 224, 2, 187)),
+                      style: TextStyle(fontSize: 20, color: Color.fromARGB(255, 116, 248, 1)),
                     ),
                   ],
                 ),
